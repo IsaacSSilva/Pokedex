@@ -11,8 +11,6 @@
 **📄 Descrição | Proposta** </br>
 Um projeto no qual sera utilizado uma <a href="https://pokeapi.co/?ref=public-apis" >API</a> para buscar informacao direto da mesma e nos retornado na tela, como imagens, nome, tipo do pokemon, foi desidico ser realizado esse projeto para treinar e aprender como inplementrar API aos projetos e demais.
 
-<a href="https://efficient-sloth-d85.notion.site/Desafio-Sidebar-f2251eb4976941eb958326ea327ffeb9">Projeto 👆</a>
-
 ---
 <!-- tecnologia utilizada -->
 ### 🧑‍💻**Tecnologia**

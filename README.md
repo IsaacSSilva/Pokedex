@@ -3,7 +3,7 @@
 ## 📜 Status
 > Status: Finalized
 > 
-> <a href="">👌 Pokedex.md</a>
+> <a href="https://github.com/IsaacGSS/Pokedex/blob/main/MD/Pokedex.md">👌 Pokedex.md</a>
 
 ## 👨‍💻 Technology
 > <img src="https://22fde275-a0f7-493a-9331-c31456c551ee.id.repl.co/img/icons8-javascript.svg" title="Javascript" style="width: 50px;" >

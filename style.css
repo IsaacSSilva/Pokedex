@@ -12,6 +12,7 @@
   --pokeinfo-active-bg-color: #184b99;
   --pokeinfo-hover-bg-color: #0e2e5f;
   --light-text: #fff;
+  --darck-text: #000;
 }
 
 body{
@@ -46,21 +47,23 @@ main{
   background-size: cover;
 }
 
+/* logo */
 img.logo{
   height: 18vw;
 }
 
+/* div principal */
 .conter{
   display: flex;
 
   width: 390px;
-  height: 70%;
+  height: 60%;
 
   padding: 25px;
   margin: 0 0 1rem 0;
 
   flex-direction: column;
-  justify-content: end;
+  justify-content:space-evenly;
   align-items: center;
 
   border-radius: 10px;
@@ -68,6 +71,7 @@ img.logo{
   backdrop-filter: blur(5px);
 }
 
+/* Label do Input de entrada */
 label{
   padding: 0 0 0 5px;
 
@@ -75,11 +79,13 @@ label{
   font-size: 1.2rem;
 }
 
-label::after{
-  content: '  👇';
-}
+  label::after{
+    content: '  👇';
+  }
 
-input{
+
+/* Input de entrada */
+#pokeinput{
   width: 350px;
   height: 45px;
 
@@ -92,7 +98,8 @@ input{
   border-top-right-radius: 15px;
 }
 
-button{
+/* Input de submit */
+.button{
   width: 100%;
   height: 35px;
 
@@ -108,10 +115,11 @@ button{
   color: var(--light-text);
 }
 
-button:active{
-  background-color: var(--pokeinfo-active-bg-color);
-}
+  .button:active{
+    background-color: var(--pokeinfo-active-bg-color);
+  }
 
+/* Sub Div */
 .date{
   display: flex;
 
@@ -123,7 +131,8 @@ button:active{
   align-items: center;
 }
 
-.date > span{
+/* Conteiner das img */
+#pokeimg{
   display: flex;
 
   width: 100%;
@@ -132,26 +141,47 @@ button:active{
   justify-content: center;
 }
 
+/* Imagens do Pokemon */
+#pokeimg img{
+  margin: 0 0 0 5px;
+
+  border: solid 1px #000;
+  border-radius: 100%;
+
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.301);
+
+  background-color: rgba(255, 255, 255, 0.452);
+}
+
+/* Info. do Pokemon */
 #pokeinformation{
   display: flex;
 
   width: 100%;
-  height: 100%;
+  height: 100%; 
+
+  margin: 10px;
+  padding: 1rem;
+
+  text-align: center;
 
   justify-content: center;
   align-items: center;
+
+  border-radius: 15px;
+
+  background-color: var(--pokeimg-bg-color);
+  color: var(--darck-text);
 }
 
-#pokeinformation > p{
-  padding: 5px;
+  #pokeinformation > p{
+    Text-transform: capitalize;
+    font-family: 'Roboto mono', monospace;
+  }
 
-  border-radius: 25%;
-
-  color: #000;
-  background-color: #fff;
-}
-
+/* footer */
 footer, a{
+  font: 14px 'Roboto mono', monospace;
   color: var(--light-text);
   text-decoration: none;
 }

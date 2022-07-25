@@ -17,5 +17,5 @@
 
 ## 👀 Preview
  
-<!-- > <img src="md/img" title="Preview website" style="width: 20%;"> -->
-> <img src="md/../MD/img/preview_website.png" title="Preview website" style="width: 100%;">
+> <img src="md/../MD/img/photo_5114130349939599900_y.jpeg" title="Preview website" style="width: 20%;">
+> <img src="md/../MD/img/Captura%20de%20tela%20de%202022-07-25%2012-46-35.png" title="Preview website" style="width: 73%;">

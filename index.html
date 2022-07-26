@@ -29,7 +29,8 @@
 
         <label for="pokeinput">Name or Number</label>
         <br>
-        <input id="pokeinput" type="text" 
+        <input id="pokeinput" type="text"
+        required minlength="1" 
         placeholder=" EX: Pikachu or 25">
 
         <br>
@@ -43,9 +44,9 @@
       <div class="date">
 
         <!--  Imagen dos pokemons -->
-        <span id="pokeimg">
+        <div id="pokeimg">
           <!-- <img src=" Imagem do Pokemon "> -->
-        </span>
+        </div>
 
         <!--  Dados do Pokemon -->
         <div id="pokeinformation">
@@ -57,12 +58,6 @@
     </div>
 
   </main>
-
-  <footer>
-    <!--  Footer do Criador -->
-    <p>Feito com 💛 por <a href="https://isaacgss.vercel.app/" target="_blank" >@Isaac S. Silva.</a></p>
-  </footer>
-  
 
   <script src="script.js"></script>
 </body>

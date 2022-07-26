@@ -12,7 +12,7 @@
 
 ## 💻 Funcionalidades
 
-> * Em um input digite o nome ou o numero do pokemon corespondente desejado
+> * Em um input digite o nome ou o numero do pokemon correspondente desejado
 > * O Site ira buscar em uma API os dados e ira retornar na tela
 
 ## 👀 Preview

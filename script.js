@@ -1,5 +1,35 @@
-let form = document.querySelector('form');
+// background logic for time
+let data = new Date() ;
+let hora = data.getHours();
 
+let body = document.querySelector('body');
+let main = document.querySelector('main');
+
+if (hora > 6 && hora <= 13) {
+  body.style.background = 'url(assets/manha.png) center center no-repeat fixed';
+  body.style.backgroundSize = 'cover';
+  
+
+  main.style.background = 'url(assets/manha.png) no-repeat center center';
+  main.style.backgroundSize = 'cover';
+  
+} else if (hora > 13 && hora <= 18){
+  body.style.background = 'url(assets/tarde.png) center center no-repeat fixed';
+  body.style.backgroundSize = 'cover';
+
+  main.style.background = 'url(assets/tarde.png) center center no-repeat';
+  main.style.backgroundSize = 'cover';
+
+} else {
+  body.style.background = 'url(assets/noite.png) center center no-repeat fixed';
+  body.style.backgroundSize = 'cover';
+
+  main.style.background = 'url(assets/noite.png) center center no-repeat';
+  main.style.backgroundSize = 'cover';
+}
+
+
+let form = document.querySelector('form');
            
 form.addEventListener('submit', function(e){
 
@@ -36,8 +66,9 @@ form.addEventListener('submit', function(e){
 
     })
     .catch(function(err){
-      content.innerHTML  = `<p>Ops😅, Pokemon "<u>${valorName.toLocaleUpperCase()}</u>" nao encontrado </br> tente outra vez</p>`
 
+      content.innerHTML  = `<p>Ops😅, "<u>${valorName.toLocaleUpperCase()}</u>" nao valido </br> tente outra vez</p>`
+      
       contentimg.innerHTML = ''
 
     })

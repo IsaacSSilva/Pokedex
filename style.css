@@ -26,23 +26,20 @@ body{
   width: 100vw;
   height: 100vh;
 
-  justify-content: space-evenly;
+  justify-content: center;
 
   font-family: 'Roboto', sans-serif;
 
-  background: url(assets/wp1933972-pixel-art-wallpapers.png) center no-repeat;
-  background-size: cover;
   backdrop-filter: blur(2px);
   color: var(--light-text);
 }
 
 main{
-  min-width: 90%;
+  width: 90%;
   height: 90%;
 
   justify-content: space-around;
 
-  background: url(assets/wp1933972-pixel-art-wallpapers.png) center no-repeat;
   background-size: cover;
 }
 
@@ -53,13 +50,11 @@ img.logo{
 
 /* div principal */
 .conter{
-  width: 390px;
-  height: 50vh;
+  height: 360px;
 
-  padding: 25px;
-  margin: 0 0 1rem 0;
-
-  justify-content:space-around;
+  gap: 2rem;
+  padding: 20px;
+  margin: 15px;
 
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.137);  
@@ -110,9 +105,9 @@ label::after{
   color: var(--light-text);
 }
 
-  .button:active{
-    background-color: var(--pokeinfo-active-bg-color);
-  }
+.button:active{
+  background-color: var(--pokeinfo-active-bg-color);
+}
 
 /* Sub Div */
 .date{
@@ -128,7 +123,7 @@ label::after{
 
   flex-direction: row;
 
-  padding-top: 1.5rem;  
+  margin-top: 1rem;  
   padding-bottom: .25rem;
 
   justify-content: center;

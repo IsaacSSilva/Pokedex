@@ -50,7 +50,7 @@ img.logo{
 
 /* div principal */
 .conter{
-  height: 360px;
+  height: 370px;
 
   gap: 2rem;
   padding: 20px;
@@ -113,6 +113,8 @@ label::after{
 .date{
   width: 350px;
   height: 50%;
+
+  gap: .5rem;
 
   justify-content: space-around;
 }

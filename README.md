@@ -14,8 +14,9 @@
 
 > * Em um input digite o nome ou o numero do pokemon correspondente desejado
 > * O Site ira buscar em uma API os dados e ira retornar na tela
+> * Responsividade📱 [⚠️ Em algumas condições em aparelhos mobile podera apresentar instabilidade]
 
 ## 👀 Preview
- 
+
 > <img src="md/../MD/img/photo_5114130349939599900_y.jpeg" title="Preview website" style="width: 20%;">
 > <img src="md/../MD/img/Captura%20de%20tela%20de%202022-07-25%2012-46-35.png" title="Preview website" style="width: 73%;">

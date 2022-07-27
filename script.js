@@ -53,14 +53,24 @@ form.addEventListener('submit', function(e){
               </br> 
               Tipo: ${data.types[0].type.name}</p>`
       content.innerHTML = html
-  
+    
+    const imgFornt = data.sprites.front_default;
+    const imgBack = data.sprites.back_default;    
 
-      html = `<img title='${data.name} N:${data.id}' 
-              src='${data.sprites.front_default}'>
+      if ( imgFornt === null || imgBack === null ) {
+
+        html = '<h2>Imagens não disponiveis 😅</h2>'
+
+        contentimg.innerHTML = html
+      } else {
+
+        html = `<img title='${data.name} N:${data.id}' 
+              src='${imgFornt}'>
 
               <img title='${data.name} N:${data.id}' 
-              src='${data.sprites.back_default}'>`
-      contentimg.innerHTML = html
+              src='${imgBack}'>`
+        contentimg.innerHTML = html
+      }
 
       nome.value = ''
 

@@ -38,7 +38,8 @@ main{
   width: 90%;
   height: 90%;
 
-  justify-content: space-around;
+  gap: 3rem;
+  justify-content: center;
 
   background-size: cover;
 }
@@ -121,6 +122,7 @@ label::after{
 
 /* Conteiner das img */
 #pokeimg{
+  display: flex;
   width: 100%;
 
   flex-direction: row;
@@ -129,6 +131,8 @@ label::after{
   padding-bottom: .25rem;
 
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Imagens do Pokemon */

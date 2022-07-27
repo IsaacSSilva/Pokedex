@@ -104,3 +104,22 @@ form.addEventListener('submit', function(e){
     // Reset de Imagens
     contentimg.innerHTML = ''
 ```
+* Error de img na API
+  Em casos da API não dar suporte com as imagens, uma mensagem de erro ira retornar
+<img src="img/alert-img.jpeg">
+```js
+ if ( imgFornt === null || imgBack === null ) {
+
+  html = '<h2>Imagens não disponiveis 😅</h2>'
+
+  contentimg.innerHTML = html
+} else {
+
+  html = `<img title='${data.name} N:${data.id}' 
+        src='${imgFornt}'>
+
+        <img title='${data.name} N:${data.id}' 
+        src='${imgBack}'>`
+  contentimg.innerHTML = html
+}
+```

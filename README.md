@@ -20,8 +20,8 @@
 > <img src="md/../MD/img/mobile-manha.jpeg" title="Preview website" style="width: 20%;"> 
 > <img src="md/../MD/img/manha.png" title="Preview website" style="width: 73%;"> 
 > 
-> <img src="md/../MD/img/mobile-tarde.jpeg" title="Preview website" style="width: 22.5%;"> 
-> <img src="md/../MD/img/tarde.png" title="Preview website" style="width: 73%;">
+> <img src="md/../MD/img/mobile-tarde.jpeg" title="Preview website" style="width: 22%;"> 
+> <img src="md/../MD/img/tarde.png" title="Preview website" style="width: 71%;">
 >
 > <img src="md/../MD/img/photo_5114130349939599900_y.jpeg" title="Preview website" style="width: 20%;">
 > <img src="md/../MD/img/Captura%20de%20tela%20de%202022-07-25%2012-46-35.png" title="Preview website" style="width: 73%;">

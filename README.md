@@ -1,5 +1,5 @@
 # **🤓 Pokedex**
- Projeto utilizando API do Pokemon com Javascript
+ Projeto utilizando API do Pokemon com Javascript, no aqual podemos pesquisar o nome ou o numero do pokemon e ver o nome, o timo e imagens do pokemon escolhido
 ## 📜 Status
 > Status: Finalized
 > 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <%- include('../partials/head'); %>
+
+<body>
+
+  <main>
+
+    <!-- lopgo -->
+    <img title="Pokemon"
+    src="assets/pokemon-logo.png" 
+    class="logo"
+    alt="Pokemon logo">
+
+    <!--  Elemento principal de interacao -->
+    <div class="conter">
+
+      <!--  Formulario -->
+      <%- include('../partials/form'); %>
+      
+      <!--  Sub Div, div de retorno -->
+      <div class="date">
+
+        <!--  Imagen dos pokemons -->
+         <%- include('../partials/dataImg'); %>
+        
+
+        <!--  Dados do Pokemon -->
+        <%- include('../partials/dataText'); %>
+        
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

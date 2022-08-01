@@ -12,38 +12,25 @@
     src="assets/pokemon-logo.png" 
     class="logo"
     alt="Pokemon logo">
+    
 
     <!--  Elemento principal de interacao -->
     <div class="conter">
 
       <!--  Formulario -->
-      <form action="">
+      <%- include('../partials/form'); %>
 
-        <label for="pokeinput">Name or Number</label>
-        <br>
-        <input id="pokeinput" type="text"
-        required minlength="1" 
-        placeholder=" EX: Pikachu or 25">
-
-        <br>
-        <input 
-        class="button"
-        type="submit" value="BUSCAR">
-
-      </form>
       
       <!--  Sub Div, div de retorno -->
       <div class="date">
 
         <!--  Imagen dos pokemons -->
-        <div id="pokeimg">
-          <!-- <img src=" Imagem do Pokemon "> -->
-        </div>
+         <%- include('../partials/dataImg'); %>
+        
 
         <!--  Dados do Pokemon -->
-        <div id="pokeinformation">
-          <p>[...]</p>
-        </div>
+        <%- include('../partials/dataText'); %>
+        
 
       </div>
 

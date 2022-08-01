@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Projeto utilizando API do Pokemon com Javascript, no aqual podemos pesquisar o nome ou o numero do pokemon e ver o nome, o timo e imagens do pokemon escolhido ## 📜 Status > Status: Finalized >  > <a href=\"https://github.com/IsaacGSS/Pokedex/blob/main/MD/Pokedex.md\">👌 Pokedex.md</a>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacGSS/Pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacGSS/Pokedex/issues"
+  },
+  "homepage": "https://github.com/IsaacGSS/Pokedex#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "serve-favicon": "^2.5.0"
+  }
+}

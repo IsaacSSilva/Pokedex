@@ -1,0 +1,178 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --main-bg-color: #fff;
+  --pokeimg-bg-color: #fbff19;
+  --pokeinfo-bg-color: #2268d3;
+  --pokeinfo-active-bg-color: #184b99;
+  --pokeinfo-hover-bg-color: #0e2e5f;
+  --light-text: #fff;
+  --darck-text: #000;
+}
+
+body, main, .conter, .date, 
+#pokeinformation, #pokeimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+
+  justify-content: center;
+
+  font-family: 'Roboto', sans-serif;
+
+  backdrop-filter: blur(2px);
+  color: var(--light-text);
+}
+
+main{
+  width: 90%;
+  height: 90%;
+
+  gap: 3rem;
+  justify-content: center;
+
+  background-size: cover;
+}
+
+/* logo */
+img.logo{
+  height: 18vw;
+}
+
+/* div principal */
+.conter{
+  height: 370px;
+
+  gap: 2rem;
+  padding: 20px;
+  margin: 15px;
+
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.137);  
+  backdrop-filter: blur(5px);
+}
+
+/* Label do Input de entrada */
+label{
+  padding: 0 0 0 5px;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+label::after{
+  content: '  👇';
+}
+
+
+/* Input de entrada */
+#pokeinput{
+  width: 350px;
+  height: 45px;
+
+  padding-left: 1rem;
+  margin: 10px 0 5px 0;
+
+  font-family: 'Roboto mono', monospace;
+
+  border: none;
+  border-top-right-radius: 15px;
+}
+
+/* Input de submit */
+.button{
+  width: 100%;
+  height: 35px;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  border: none;
+  border-bottom-left-radius: 15px;
+
+  cursor: pointer;
+
+  background-color: var(--pokeinfo-bg-color);
+  color: var(--light-text);
+}
+
+.button:active{
+  background-color: var(--pokeinfo-active-bg-color);
+}
+
+/* Sub Div */
+.date{
+  width: 350px;
+  height: 50%;
+
+  gap: .5rem;
+
+  justify-content: space-around;
+}
+
+/* Conteiner das img */
+#pokeimg{
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+
+  margin-top: 1rem;  
+  padding-bottom: .25rem;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Imagens do Pokemon */
+#pokeimg img{
+  margin: 0 0 0 5px;  
+
+  border: solid 1px #000;
+  border-radius: 100%;
+
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.301);
+
+  background-color: rgba(255, 255, 255, 0.452);
+}
+
+/* Info. do Pokemon */
+#pokeinformation{
+  width: 100%;
+  
+
+  margin: 10px;
+  padding: 1rem;
+
+  text-align: center;
+
+  justify-content: center;
+
+  border-radius: 15px;
+
+  background-color: var(--pokeimg-bg-color);
+  color: var(--darck-text);
+}
+
+  #pokeinformation > p{
+    Text-transform: capitalize;
+    font-family: 'Roboto mono', monospace;
+  }
+
+/* footer */
+footer, a{
+  font: 14px 'Roboto mono', monospace;
+  color: var(--light-text);
+  text-decoration: none;
+}

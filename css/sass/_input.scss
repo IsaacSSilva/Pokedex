@@ -1,0 +1,40 @@
+.conter{
+  height: 370px;
+  gap: 2rem;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: $color-bg-conter;  
+  backdrop-filter: blur(5px);
+ 
+  form{
+    label{
+      padding: 0 0 0 5px;
+      font-weight: 700;
+      font-size: 1.2rem;
+    
+      &::after{
+        content: '  👇';
+      }
+    }
+  
+    #pokeinput{
+      width: 350px;
+      height: 45px;
+    
+      padding-left: 1rem;
+      margin: 10px 0 5px 0;
+    
+      font-family: 'Roboto mono', monospace;
+    
+      border: none;
+      border-top-right-radius: 15px;
+    }
+
+    @import 'button';
+  }
+}
+
+
+
+

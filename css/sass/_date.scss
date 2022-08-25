@@ -1,0 +1,55 @@
+.date{
+  width: 350px;
+  height: 50%;
+
+  gap: .5rem;
+
+  justify-content: space-around;
+
+  #pokeimg{
+    display: flex;
+    width: 100%;
+  
+    flex-direction: row;
+  
+    margin-top: 1rem;  
+    padding-bottom: .25rem;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    img{
+      margin: 0 0 0 5px;  
+    
+      border: solid 1px $dark-text;
+      border-radius: 100%;
+    
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.301);
+    
+      background-color: $color-bg-img;
+    }
+  }
+
+  #pokeinformation{
+    width: 100%;
+    
+  
+    margin: 10px;
+    padding: 1rem;
+  
+    text-align: center;
+  
+    justify-content: center;
+  
+    border-radius: 15px;
+  
+    background-color: $pokeimg-bg-color;
+    color: $dark-text;
+  
+    p{
+      Text-transform: capitalize;
+      font-family: 'Roboto mono', monospace;
+    }
+  }
+}

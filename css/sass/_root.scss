@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$body-bg-color: #dce4e3;
+$main-bg-color: #fff;
+$pokeimg-bg-color: #fbff19;
+$pokeinfo-bg-color: #2268d3;
+$pokeinfo-active-bg-color: #184b99;
+$pokeinfo-hover-bg-color: #0e2e5f;
+$light-text: #fff;
+$dark-text: #000;
+$color-bg-conter: #ffffff23;
+$color-bg-img: #ffffff73;
+
+body, main, .conter, .date, 
+#pokeinformation, #pokeimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

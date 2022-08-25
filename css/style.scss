@@ -1,0 +1,27 @@
+@import 'sass/root';
+
+body{
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  backdrop-filter: blur(2px);
+  color: $light-text;
+}
+
+main{
+  width: 90%;
+  height: 90%;
+  gap: 3rem;
+  justify-content: center;
+  background-size: cover;
+}
+
+img.logo{
+  height: 18vw;
+}
+
+@import 'sass/input';
+
+@import 'sass/date';
+  
